@@ -1,0 +1,8 @@
+language: csharp
+solution: cidemo.sln
+script:
+  - dotnet test
+jobs:
+  include:
+    - dotnet: 5.0
+    - dotnet: 2.1.502
